@@ -210,9 +210,9 @@ const navigate = useNavigate();
         <div className="text-center p-8 bg-white rounded-lg shadow-lg">
           <div className="text-red-500 mb-4">⚠️</div>
           <p className="text-gray-800">{error}</p>
-          <Link to="/events" className="mt-4 inline-flex items-center text-primary hover:text-secondary">
+          <Link to="/upload" className="mt-4 inline-flex items-center text-primary hover:text-secondary">
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Events
+            Click to Upload images
           </Link>
         </div>
       </div>
